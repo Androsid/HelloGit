@@ -35,9 +35,9 @@ namespace Test
             //        Console.WriteLine(i);
             //    }
             string str = "Hello";
-            char[] tmp = str.ToCharArray();
-            Array.Reverse(tmp);
-            str = String.Join("",tmp);
+            char[] tmp = str.ToCharArray(); // В массив чаров
+            Array.Reverse(tmp);             // инвертируем
+            str = String.Join("",tmp);      // соединяем чары в строку
             
             Console.Write(str);
            
