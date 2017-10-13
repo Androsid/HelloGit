@@ -6,8 +6,6 @@ using System.Threading.Tasks;
 
 namespace Test
 {
-    class AndroClass
-    {
-        enum models {Honda, BMW, LADA, TESLA };
-    }
+    enum EnumModels { Honda, BMW, LADA, TESLA };
+
 }

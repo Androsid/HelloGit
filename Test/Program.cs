@@ -34,13 +34,18 @@ namespace Test
             //    {
             //        Console.WriteLine(i);
             //    }
+
             string str = "Hello";
             char[] tmp = str.ToCharArray(); // В массив чаров
             Array.Reverse(tmp);             // инвертируем
             str = String.Join("",tmp);      // соединяем чары в строку
             
-            Console.Write(str);
-           
+            Console.WriteLine(str);
+
+            Temp temp = new Temp();
+            temp.PrintModels();
+
+
 
             Console.ReadKey();
         }

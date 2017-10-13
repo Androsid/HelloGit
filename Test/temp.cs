@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace Test
 {
-    class temp
+    class Temp
     {
+        EnumModels models = EnumModels.BMW;
+
+        public void PrintModels()
+        {
+            Console.WriteLine(models);
+        }
     }
+    
 }
